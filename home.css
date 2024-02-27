@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+  }
+  a{
+    text-decoration: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    color: white;
+  }
+  header{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .navbar{
+    list-style-type: none;
+    display: flex;
+    
+  }
+  .navbar li{
+    margin: 10px;
+  }
+  
+  
+ header ul li a{
+    
+    padding: 10px;
+  
+}
+.fas{
+    margin-right: 5px;
+}
+ .frist-lettre{
+    color: #93cb52;
+ }
+ li a:hover{
+    width: 50px;
+    height:20 px;
+    background-color: #93cb52;
+ }
+ .frist-paragraph{
+  background: url(.//img/showcase.jpg) no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+ 
+ }
+ .frist-paragraph2{
+  background-color: rgba(0, 0, 0, 0.413);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+   justify-content: center;
+  align-items: center;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+ 
+ }
+ h1{
+  font-size: 60px;
+  padding: 10px;
+ }
+  .frist-paragraph2 p{
+  font-size: 20px;
+  padding: 20px;
+ }
+ .frist-paragraph2 a{
+  background-color: #93cb52;
+  padding: 7px 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 10px;
+}
+.frist-paragraph2 a:hover{
+  background-color: #7ab436;
+}
+
+.pp2{
+  display: flex;
+  margin: auto;
+  width: 85%;
+  padding: 20px;
+}
+.what{
+  padding: 20px;
+  background: #f4f4f4;
+  color: #333;
+  
+}
+.we{
+ text-align: center;
+  font-size:2em;
+}
+.p3{
+  padding: 20px;
+  margin: auto;
+  
+}
+.osam{
+  background-color: #7ab436;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding: 20px;
+}
+.emge1{
+  background: url(.//img/people.jpg) no-repeat center center/cover;
+  
+  width: 50%;
+}
+.we_are{
+  display: flex;
+}
+.list{
+  list-style: none;
+}
+
+
+.back-black{
+  width: 50%;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+.Our{
+  margin: 10px 0px;
+}
+.list li{
+  padding: 10px 0;
+  border-bottom: 1px dotted  #444;
+}
+.Clients{
+  display: flex;
+ padding: 10px;
+
+}
+.Clients img{
+  width:60% ;
+  display: block;
+  margin: auto;
+}
+.Our{padding: 20px 0;
+ 
+
+}
+.head_who{
+  font-size: 32px;
+  
+}
+.center{
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.back-gre{
+  background-color: #93cb52;
+  width: 50%;
+  color: white;
+  padding: 20px 
+}
+.back-gre h2{
+  margin: 10px 0;
+  font-size: 32px;
+  
+
+}
+.form1 input ,textarea{
+  width: 100%;
+  padding: 5px;
+}
+.form1{
+  margin: 10px;
+}
+
+.bt{
+  background-color: #333;
+  width: 100%;
+  border: none;
+  padding:7px;
+  text-align: center;
+  border-radius:5px ;
+  -webkit-border-radius:5px ;
+  -moz-border-radius:5px ;
+  -ms-border-radius:5px ;
+  -o-border-radius:5px ;
+  color: white;
+ 
+  
+}
+.bt:hover{
+  background-color: #7ab436;
+}
+.form1:hover{
+  border-color: black;
+}
+.mmap{
+  display: flex;
+  
+  
+}
+footer{
+  background-color:  #333;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width:500px){
+  /* header ,
+  .frist-paragraph,.frist-paragraph2 ,#what ,#who ,.Our ,.mmap{
+  width: 700px;
+
+  }
+  .pp2{
+    width: 100%;
+    padding: 0;
+  }
+  .mmp{
+    flex-direction: column-reverse;
+  }
+   */
+   .navbar li {
+    margin:5px;
+}
+h1 {
+  font-size: 35px;
+  padding: 0px;
+}
+.pp2{
+  flex-direction: column;
+}
+header{
+  padding: 5px;
+    font-size: 14px;
+}
+.we_are {
+  flex-direction: column-reverse;
+}
+.back-black{
+  width: 100%;
+}
+.mmap{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.back-gre {
+  width: 100%;
+}
+
+}
